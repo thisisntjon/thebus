@@ -3,13 +3,13 @@
 Format: phased-investigation-workflow (`/phased`). Triage depth: **Deep** — the findings
 decide which of thebus's primitives get deleted, so getting it wrong means either
 maintaining a bespoke reimplementation of solved problems or building a silo.
-Current stage: RETIRED 2026-08-18 — effort redirected to the blueprint in the sibling repository (publication pending). Phase 1 never executed.
+Current stage: RETIRED 2026-08-18: effort redirected to the blueprint in the sibling repository, [seed-protocol](https://github.com/thisisntjon/seed-protocol). Phase 1 never executed.
 Last updated: 2026-08-18
 
 > Reading note (added at publication): this plan was frozen at retirement. `schema/families.json`,
 > `schema/ablation-record.json` and `workflow/experiments/` were planned and never created.
 > `DECISIONS.md`, `LAWS.md`, `GATES.md`, `SLOP_RETRACTIONS.md`, `stress_test.py`, `sabotage_test.py`
-> and `onboard_check.py` belong to the sibling repository (publication pending; not linked here), not to this repo.
+> and `onboard_check.py` belong to the sibling repository, [seed-protocol](https://github.com/thisisntjon/seed-protocol), not to this repo.
 
 ## Problem
 
@@ -88,7 +88,7 @@ Those are the fleet framing that canon closed and that `ag2/network` already hal
 
 - Assumption: Building fleet infrastructure is a legitimate thing to be doing now.
   Source: implicit in this effort; never stated until challenged
-  Status: **INVALIDATED (2026-08-18)** — `workflow/canon/DECISIONS.md` in the sibling repository (publication pending), dated
+  Status: **INVALIDATED (2026-08-18)**: `workflow/canon/DECISIONS.md` in the sibling repository ([seed-protocol](https://github.com/thisisntjon/seed-protocol)), dated
   2026-08-08, already closed this question: "Default operating mode: fleet or single
   agent? -> Single strong agent; fleet opt-in for provably independent tickets," on the
   rationale "30-day fleet campaign produced zero confirmed improvements; multi-agent ~3x
@@ -509,7 +509,7 @@ avoids the circularity that scoring on the naturally-caught cases would introduc
 
 **What flipped.** Two load-bearing assumptions, both verified, neither absorbed silently:
 (1) *Building fleet infrastructure is a legitimate thing to be doing now* — invalidated by
-`workflow/canon/DECISIONS.md` in the sibling repository (publication pending) (2026-08-08), which already decided single-agent
+`workflow/canon/DECISIONS.md` in the sibling repository ([seed-protocol](https://github.com/thisisntjon/seed-protocol)) (2026-08-08), which already decided single-agent
 default with reopen gated on the P3 ablation. P3 is unmet. (2) *Dissent should be damped
 and quarantined* — invalidated by the governance corpus: no institution hides dissent;
 Steblay's 48-study meta-analysis finds the exact "disregard this" banner `bus.py orient`
