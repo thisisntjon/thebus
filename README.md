@@ -9,7 +9,7 @@ A preserved negative result: a multi-agent bus design refuted by a five-angle pr
 **What the sweep established**
 
 - The social design was inverted: no institution quarantines dissent, and showing it under a "disregard this" banner is the measured-worst option across 48 studies.
-- 17 assumptions invalidated in the initial sweep; 21 after a later step.
+- 17 assumptions were invalidated at the sweep commit; the registry in `workflow/PLAN.md` now carries 21 entries marked INVALIDATED (four more after a later step).
 
 Retraction ledger: [`RETRACTIONS.md`](RETRACTIONS.md).
 
